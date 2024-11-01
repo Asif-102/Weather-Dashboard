@@ -1,4 +1,4 @@
-import SearchImage from "../../assets/search.svg";
+import SearchIcon from "../../assets/search.svg";
 
 export default function Search() {
   return (
@@ -11,7 +11,7 @@ export default function Search() {
           required
         />
         <button type="submit">
-          <img src={SearchImage} />
+          <img src={SearchIcon} alt="Search Icon" />
         </button>
       </div>
     </form>
