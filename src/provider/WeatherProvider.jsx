@@ -1,3 +1,4 @@
+/* eslint-disable react/prop-types */
 import { WeatherContext } from "../context";
 import { useWeather } from "../hooks";
 

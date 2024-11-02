@@ -33,7 +33,6 @@ export default [
         "warn",
         { allowConstantExport: true },
       ],
-      "eslint-disable react/prop-types": false,
     },
   },
 ];
