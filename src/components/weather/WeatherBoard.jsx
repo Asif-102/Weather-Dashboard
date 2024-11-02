@@ -6,8 +6,6 @@ import WeatherHeadline from "./WeatherHeadline";
 
 export default function WeatherBoard() {
   const { weatherData, loading } = useContext(WeatherContext);
-  console.log("🚀 ~ WeatherBoard ~ loading:", loading);
-  console.log("🚀 ~ WeatherBoard ~ weatherData:", weatherData);
 
   return (
     <div className="container">
